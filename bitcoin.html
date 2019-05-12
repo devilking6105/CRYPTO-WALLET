@@ -6,7 +6,7 @@
    <script>
    function setup(){
       //createCanvas(400,200);
-      //var my = loadJSON('https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD',gotData);
+      //var my = loadJSON('https://api.coingecko.com/api/v3/simple/price?ids=Help%20the%20homeless%20coin&vs_currencies=Usd&include_market_cap=True&include_last_updated_at=True',gotData);
    }
    /*
    function draw()
@@ -46,7 +46,7 @@
       var dataLength = 10; // number of dataPoints visible at any point
       //console.log(weather.USD);
       var updateChart = function (count) {
-         loadJSON('https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD',gotData);
+         loadJSON('https://api.coingecko.com/api/v3/simple/price?ids=Help%20the%20homeless%20coin&vs_currencies=Usd&include_market_cap=True&include_last_updated_at=True',gotData);
          //loadJSON('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD',gotData);
          //console.log();
          //console.log(weather/1000);
